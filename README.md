@@ -1,0 +1,38 @@
+## Research OS
+
+A multi-agent research assistant that:
+- finds relevant ArXiv papers,
+- analyzes paper metadata,
+- formats APA 7th Edition citations,
+- provides a Streamlit UI to run the full flow.
+
+## Requirements
+
+- Python 3.10+
+- Ollama running with the configured model in `main.py`
+
+## Setup
+
+```
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+## Run the Streamlit app
+
+```
+streamlit run streamlit_app.py
+```
+
+## Run agents directly (optional)
+
+```
+python src/agents/researcher_agent.py
+python src/agents/supervisor_agent.py
+```
+
+## Notes
+
+- The formatter expects **paper-level metadata** (title, authors, published date, URL).
+- The analyst outputs summary analytics plus ASCII charts.

@@ -1,0 +1,7 @@
+langchain
+langchain[openai]
+langchain-ollama
+python-dotenv
+arxiv
+streamlit
+watchdog
