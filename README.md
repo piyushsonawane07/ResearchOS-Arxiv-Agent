@@ -6,8 +6,8 @@ A multi-agent research assistant that:
 - formats 
 PA 7th Edition citations,
 - provides a Streamlit UI to run the full flow.
-
-<img width="1915" height="1104" alt="Screenshot 2026-01-20 at 3 37 04 PM" src="https://github.com/user-attachments/assets/0ae7cd4b-8603-4661-9643-e30cbcdcb771" />
+  
+<img width="1070" height="712" alt="Screenshot 2026-01-31 at 8 00 39 AM" src="https://github.com/user-attachments/assets/0757e8c7-0797-4767-9539-b74a6ced2b9e" />
 
 ## Requirements
 
