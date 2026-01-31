@@ -3,5 +3,7 @@ langchain[openai]
 langchain-ollama
 python-dotenv
 arxiv
-streamlit
+rich
+typer
+questionary
 watchdog
