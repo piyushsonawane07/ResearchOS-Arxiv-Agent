@@ -21,10 +21,10 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Run the Streamlit app
+## Run CLI app
 
 ```
-streamlit run streamlit_app.py
+python cli.py
 ```
 
 ## Run agents directly (optional)
